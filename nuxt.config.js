@@ -2,6 +2,12 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: 'true',
+  target: 'server',
+  server: {
+    port: 3000,
+    host: '0.0.0.0',
+  },
   head: {
     titleTemplate: '%s - BOOKSKY STORE',
     title: 'BOOKSKY STORE',
@@ -10,8 +16,29 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        name: 'description',
+        content:
+          'It is a long established fact that a reader will be distracted by the readable content It is a long established fact that a reader will be distracted by the readable content.',
+      },
+      {
+        name: 'keywords',
+        content: 'booksky, authors, category',
+      },
+      {
+        property: 'og:image',
+        content: 'https://bookstore-website-five.vercel.app/bookstore.jpg',
+      },
+      {
+        property: 'og:image:secure_url',
+        content: 'https://bookstore-website-five.vercel.app/bookstore.jpg',
+      },
+      { property: 'og:type', content: 'website' },
+      {
+        nae: 'image/x-icon',
+        href: '/favicon.ico',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
