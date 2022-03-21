@@ -1,0 +1,18 @@
+.menu-layout {
+  ul {
+    li {
+      a {
+        color: $gray;
+        transition: color 0.3s ease-in;
+
+        &.active {
+          color: $purple;
+        }
+
+        &:hover {
+          color: $purple;
+        }
+      }
+    }
+  }
+}

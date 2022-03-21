@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Homepage",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "title": "Shop",
+      "link": "/shop"
+    },
+    {
+      "id": 3,
+      "title": "About us",
+      "link": "/about-us"
+    },
+    {
+      "id": 4,
+      "title": "Cart",
+      "link": "/cart"
+    }
+  ]
+}

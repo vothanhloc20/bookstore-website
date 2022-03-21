@@ -1,0 +1,58 @@
+.admin-product {
+  .ap-control {
+    .apc-button {
+      background-color: #b6b6ed;
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+
+    .apc-pm {
+      background-color: #b6b6ed;
+      color: $purple;
+      font-weight: $weight-bold;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .apc-anp {
+      color: $purple;
+      font-weight: $weight-semi-bold;
+      padding: 10px 16px;
+      margin-left: 8px;
+      cursor: pointer;
+
+      i {
+        color: $purple;
+      }
+    }
+  }
+
+  .v-skeleton-loader__table-thead.v-skeleton-loader__bone {
+    margin-top: 8px !important;
+  }
+
+  .v-skeleton-loader__table-tbody.v-skeleton-loader__bone {
+    background: transparent !important;
+    padding: 0 0 0 !important;
+  }
+
+  .v-skeleton-loader__table-row-divider.v-skeleton-loader__bone {
+    margin-top: 8px !important;
+    background: $white !important;
+    padding: 13px 16px 0 !important;
+  }
+
+  .v-skeleton-loader__divider.v-skeleton-loader__bone {
+    display: none !important;
+  }
+
+  .v-skeleton-loader__table-tfoot.v-skeleton-loader__bone {
+    margin-top: 8px !important;
+    background: transparent !important;
+  }
+}

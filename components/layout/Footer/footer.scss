@@ -1,0 +1,31 @@
+.footer-layout {
+  .fl-column-1 {
+    .fl-title {
+      font-size: 2.75rem;
+      text-shadow: -3px 0 6px $purple;
+    }
+
+    .fl-icon {
+      display: flex;
+
+      a {
+        width: 32px;
+        height: 32px;
+        background-color: $purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        border-radius: 6px;
+    
+        &:not(:last-child) {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  .fl-row-2 {
+    border-top: 1px solid $lightgray;
+  }
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.eot');
+  src: local(''),
+       url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.woff2') format('woff2'),
+       url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.woff') format('woff'),
+       url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.ttf') format('truetype'),
+       url('../fonts/quicksand/quicksand-v28-vietnamese_latin-ext_latin-regular.svg#Quicksand') format('svg');
+}

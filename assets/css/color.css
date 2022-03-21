@@ -1,0 +1,15 @@
+.bsk-text-black {
+  color: var(--black);
+}
+
+.bsk-text-purple {
+  color: var(--purple) !important;
+}
+
+.bsk-text-gray {
+  color: var(--gray) !important;
+}
+
+.bsk-text-light-gray {
+  color: var(--light-gray) !important;
+}

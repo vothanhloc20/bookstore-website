@@ -1,0 +1,49 @@
+.bill-layout {
+  .bl-title {
+    text-shadow: -3px 0 6px $purple;
+  }
+
+  .bl-invoice-card {
+    background: rgba(68, 61, 129, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 12px;
+    color: $white;
+  }
+
+  .bl-table {
+    border-top: 1px solid $lightgray;
+    border-bottom: 1px solid $lightgray;
+
+    table {
+      width: 100%;
+
+      thead {
+        tr {
+          th {
+            padding: 12px 0;
+            text-align: left;
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            padding: 12px 0;
+          }
+        }
+      }
+    }
+  }
+
+  .bl-final-price {
+    .blfp-total-amount {
+      border-top: 1px solid $lightgray;
+      padding-top: 24px;
+    }
+  }
+}

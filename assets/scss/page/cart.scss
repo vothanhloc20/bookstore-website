@@ -1,0 +1,43 @@
+.cart-page {
+  .check-product {
+    background-color: $lightlightgray;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-height: 340px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .cp-item {
+      background-color: $white;
+      border-radius: 10px;
+      padding: 16px;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .cart-place-order {
+    background-color: rgba(243, 243, 252, 1);
+    padding: 16px;
+    border-radius: 10px;
+
+    a {
+      color: inherit;
+    }
+
+    .shipment-details {
+      border-top: 1px solid $purple;
+      padding-top: 12px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.header-layout {
+  .v-toolbar__content {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .hl-title {
+      text-shadow: -3px 0 6px $purple;
+    }
+  }
+  
+  .custom-elevation {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px !important;
+  }
+}
