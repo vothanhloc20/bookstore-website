@@ -2,12 +2,6 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  ssr: 'true',
-  target: 'server',
-  server: {
-    port: 3000,
-    host: '0.0.0.0',
-  },
   head: {
     titleTemplate: '%s - BOOKSKY STORE',
     title: 'BOOKSKY STORE',
